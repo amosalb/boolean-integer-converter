@@ -1,4 +1,4 @@
-package com.github.amosalb.converter.exceptions;
+package io.github.amosalb.converter.exceptions;
 
 public class NullNotAllowedException extends RuntimeException {
 

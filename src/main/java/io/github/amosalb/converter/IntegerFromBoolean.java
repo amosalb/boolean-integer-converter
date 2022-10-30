@@ -1,6 +1,6 @@
-package com.github.amosalb.converter;
+package io.github.amosalb.converter;
 
-import com.github.amosalb.converter.exceptions.NullNotAllowedException;
+import io.github.amosalb.converter.exceptions.NullNotAllowedException;
 
 public final class IntegerFromBoolean {
 

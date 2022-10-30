@@ -4,10 +4,35 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.amosalb</groupId>
+    <groupId>io.github.amosalb</groupId>
     <artifactId>boolean-integer-converter</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
+    <name>${project.groupId}:${project.artifactId}</name>
+    <description>A library used for converter Boolean/Integer types.</description>
+    <url>https://github.com/amosalb/boolean-integer-converter</url>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Amós Albuquerque</name>
+            <email>amos.a.albuquerque@gmail.com</email>
+            <organization>io.github.amosalb</organization>
+            <organizationUrl>https://github.com/amosalb/</organizationUrl>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/amosalb/boolean-integer-converter.git</connection>
+        <developerConnection>scm:git:ssh://github.com:amosalb/boolean-integer-converter.git</developerConnection>
+        <url>http://github.com/amosalb/boolean-integer-converter</url>
+    </scm>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
